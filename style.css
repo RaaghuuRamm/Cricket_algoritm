@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h1{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+body{
+    background-image: url("https://wallpapers.com/images/hd/cricket-ground-background-a2rr2mi4xx5wedcl.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.container{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container>.row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.pic{
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
+
+
+.name{
+    color: whitesmoke;
+    font-size: x-large;
+    font-style: bold;
+}
+
+
+.score{
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 20px;
+    align-self: center;
+}
+
+
+.goals{
+    color: lightgoldenrodyellow;
+    font-size: x-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+
+#strike{
+    background-color: blue;
+    font-size: larger;
+    width:300px;
+    height:150 px;
+    color:white;
+    margin-top: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+#try{
+    background-color: green;
+    font-size: larger;
+    width:300px;
+    height:150 px;
+    color:white;
+    margin-top: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+#circle{
+    display: inline-block;
+}
+
+
+#result{
+    background-image: url(https://assets.iplt20.com/bcci/articles/1705737695_Tata%20IPL%20Thumbnail.webp);
+    font-size: x-large;
+    color:white;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+
+#team1scores{
+    margin-top: 20px;
+}
